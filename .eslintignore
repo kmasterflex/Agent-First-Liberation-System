@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+.next/
+out/
+
+# Environment and config files
+.env*
+*.config.js
+*.config.cjs
+*.config.mjs
+
+# Cache directories
+.cache/
+.tmp/
+temp/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Generated files
+*.generated.ts
+*.generated.js
+
+# Documentation
+docs/
+*.md
+
+# Test snapshots
+__snapshots__/
+
+# Package files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
